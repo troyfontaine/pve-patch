@@ -1,6 +1,6 @@
 # pve-patch
 
-Removes subscription dialogs, replaces enterprise repository with non-subscription repository and replaces branding. Tested on PVE 6.0-7.
+Removes subscription dialogs, replaces enterprise repository with non-subscription repository and replaces branding. Tested on PVE 6.0-7 (does not work on 6.1-5)
 
 ## Note
 
@@ -13,10 +13,10 @@ Use at your own risk! Read the script before you run it.
 
 ```bash
 # if root
-wget -qO - https://raw.githubusercontent.com/kosmonavtika/pve-patch/master/patch.sh | bash
+wget -qO - https://raw.githubusercontent.com/troyfontaine/pve-patch/master/patch.sh | bash
 
 # if non-root
-wget -qO - https://raw.githubusercontent.com/kosmonavtika/pve-patch/master/patch.sh | sudo bash
+wget -qO - https://raw.githubusercontent.com/troyfontaine/pve-patch/master/patch.sh | sudo bash
 ```
 
 ## Restore
